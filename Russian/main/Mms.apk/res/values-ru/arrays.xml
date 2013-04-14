@@ -1,33 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>9__9</item>
+        <item>\@^@</item>
+        <item>\#_#</item>
+        <item>8{</item>
+        <item>*^o^*</item>
+        <item>OqpO</item>
+        <item>{oo}</item>
+        <item>-_-^</item>
+        <item>\?o?</item>
+    </string-array>
     <string-array name="default_smiley_names">
-        <item>Радость</item>
+        <item>Счастливый</item>
         <item>Грустный</item>
-        <item>Подмигивает</item>
-        <item>Показывает язык</item>
-        <item>Удивлен</item>
+        <item>Высунутый язык</item>
+        <item>Удивлённый</item>
         <item>Поцелуй</item>
-        <item>Кричит</item>
-        <item>Крутой</item>
-        <item>Не болтай попусту</item>
-        <item>В замешательстве</item>
-        <item>Смущение</item>
-        <item>Ангел</item>
-        <item>Нерешительный</item>
-        <item>Плачет</item>
-        <item>Не скажу</item>
-        <item>Смех</item>
-        <item>Озадаченный</item>
+        <item>Отлично</item>
+        <item>Смущенный</item>
+        <item>Вопящий</item>
+        <item>Рот закрыт</item>
         <item>Сердце</item>
-        <item>Злой</item>
-        <item>Ухмылка</item>
-        <item>Невозмутимость</item>
+        <item>Бешеный</item>
+        <item>Покерфейс</item>
+        <item>Бессонница</item>
+        <item>Пострадавший</item>
+        <item>Сгоревший</item>
+        <item>Барин</item>
+        <item>Девушка</item>
+        <item>Кровь из носа</item>
+        <item>RD</item>
+        <item>Потный</item>
+        <item>Что</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>Телефон</item>
+        <item>SIM карта</item>
+    </string-array>
+    <string-array name="uim_pref_sms_save_location_choices">
+        <item>Телефон</item>
+        <item>UIM карта</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_values">
+        <item>Телефон</item>
+        <item>Sim</item>
+    </string-array>
+    <string-array name="pref_entries_mms_expirytime">
+        <item>1 День</item>
+        <item>2 Дней</item>
+        <item>3 Дней</item>
+        <item>Выбрать сеть</item>
+    </string-array>
+    <string-array name="pref_entries_mms_expirytime_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
     </string-array>
     <string-array name="select_dialog_items">
         <item>1 секунда</item>
-        <item>2 сек.</item>
-        <item>3 сек.</item>
-        <item>4 сек.</item>
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>4 секунды</item>
         <item>5 секунд</item>
         <item>6 секунд</item>
         <item>7 секунд</item>
@@ -38,7 +85,34 @@
     </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Всегда</item>
-        <item>Только в режиме без звука</item>
+        <item>Беззвучный режим</item>
         <item>Никогда</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>Всегда</item>
+        <item>Беззвучный режим</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="prefEntries_mms_textsize">
+        <item>Большой</item>
+        <item>Нормальный</item>
+        <item>Маленький</item>
+    </string-array>
+    <string-array name="prefValues_mms_textsize">
+        <item>22</item>
+        <item>18</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="prefEntries_sms_priority">
+        <item>Аварийный</item>
+        <item>Экстренный</item>
+        <item>Интерактивный</item>
+        <item>Нормальный</item>
+    </string-array>
+    <string-array name="prefValues_sms_priority">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
     </string-array>
 </resources>
